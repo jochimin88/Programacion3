@@ -22,7 +22,7 @@ namespace Calculo_Nomina_Luis_Contreras_2019_04211
 
         private void textBox7_TextChanged(object sender, EventArgs e)
         {
-           
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -77,7 +77,7 @@ namespace Calculo_Nomina_Luis_Contreras_2019_04211
             */
 
             // Aqui llevamos los valores a los textbox que estan deshabilitado para ser editados
-                       
+
             rcodigo.Text = txtCodigo.Text;
             rnombre.Text = txtNombre.Text;
             rhoras.Text = txthoras.Text;
@@ -87,18 +87,14 @@ namespace Calculo_Nomina_Luis_Contreras_2019_04211
 
             // Determinamos el Salario Mensual
 
-           resSalario.Text = ((Convert.ToInt32(rhoras.Text) * Convert.ToInt32(rpreciohoras.Text))+ (Convert.ToInt32(rextras.Text) * Convert.ToInt32(rprecioextras.Text))).ToString();
-
-         
-
-
+            resSalario.Text = ((Convert.ToInt32(rhoras.Text) * Convert.ToInt32(rpreciohoras.Text)) + (Convert.ToInt32(rextras.Text) * Convert.ToInt32(rprecioextras.Text))).ToString();
 
 
             // Aplicamos descuentos de AFP y ARS
 
             float vafp = 0.0287f;
             float vars = 0.0304f;
-            
+
             float desc_afp = (float.Parse(resSalario.Text) * vafp);
             resAFP.Text = desc_afp.ToString();
             float desc_ars = (float.Parse(resSalario.Text) * vars);
@@ -110,17 +106,18 @@ namespace Calculo_Nomina_Luis_Contreras_2019_04211
 
 
             // Condicion para calcular si el salario mensual aplica para el descuento de impuesto sobre la renta ISR
-                       
 
-            if(float.Parse(resSalario.Text) > float.Parse(salariotope.Text))
+
+            if (float.Parse(resSalario.Text) > float.Parse(salariotope.Text))
             {
                 // float  desc_isr = ((Convert.ToString(resSalario.Text) - Convert.ToString(salariotope.Text)) * Convert.ToString(isr.Text));
 
-               desc_isr = ((float.Parse(resSalario.Text) - float.Parse(salariotope.Text)) * float.Parse(isr.Text));
+                desc_isr = ((float.Parse(resSalario.Text) - float.Parse(salariotope.Text)) * float.Parse(isr.Text));
 
                 resISR.Text = desc_isr.ToString();
-                
-            } else
+
+            }
+            else
             {
                 desc_isr = 0;
             }
@@ -130,19 +127,15 @@ namespace Calculo_Nomina_Luis_Contreras_2019_04211
 
             float total_descuentos = desc_afp + desc_ars + desc_isr;
             resDescuentos.Text = total_descuentos.ToString();
-            float sueldo_neto = (float.Parse(resSalario.Text)-total_descuentos);
+            float sueldo_neto = (float.Parse(resSalario.Text) - total_descuentos);
             resSalarioNeto.Text = sueldo_neto.ToString();
-
-
-           
-
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
-         
+
         }
 
         private void button3_Click(object sender, EventArgs e)
