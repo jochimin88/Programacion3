@@ -7,3 +7,17 @@ C:\Users\lcontreras\Documents\UAPA\2020\Enero -Marzo 2020\2020-1-FGI-104-70-1\Tr
 C:\Users\lcontreras\Documents\UAPA\2020\Enero -Marzo 2020\2020-1-FGI-104-70-1\Trabajo Final\Calculo-Nomina-Luis-Contreras-2019-04211\obj\Debug\Calculo-Nomina-Luis-Contreras-2019-04211.exe
 C:\Users\lcontreras\Documents\UAPA\2020\Enero -Marzo 2020\2020-1-FGI-104-70-1\Trabajo Final\Calculo-Nomina-Luis-Contreras-2019-04211\obj\Debug\Calculo-Nomina-Luis-Contreras-2019-04211.pdb
 C:\Users\lcontreras\Documents\UAPA\2020\Enero -Marzo 2020\2020-1-FGI-104-70-1\Trabajo Final\Calculo-Nomina-Luis-Contreras-2019-04211\obj\Debug\Calculo-Nomina-Luis-Contreras-2019-04211.csprojAssemblyReference.cache
+C:\Users\jochi\Source\Repos\Programacion3\Calculo-Nomina\bin\Debug\Calculo-Nomina-Luis-Contreras-2019-04211.exe.config
+C:\Users\jochi\Source\Repos\Programacion3\Calculo-Nomina\bin\Debug\Calculo-Nomina-Luis-Contreras-2019-04211.exe
+C:\Users\jochi\Source\Repos\Programacion3\Calculo-Nomina\bin\Debug\Calculo-Nomina-Luis-Contreras-2019-04211.pdb
+C:\Users\jochi\Source\Repos\Programacion3\Calculo-Nomina\obj\Debug\Calculo-Nomina-Luis-Contreras-2019-04211.csprojAssemblyReference.cache
+C:\Users\jochi\Source\Repos\Programacion3\Calculo-Nomina\obj\Debug\Calculo_Nomina_Luis_Contreras_2019_04211.Form1.resources
+C:\Users\jochi\Source\Repos\Programacion3\Calculo-Nomina\obj\Debug\Calculo_Nomina_Luis_Contreras_2019_04211.Properties.Resources.resources
+C:\Users\jochi\Source\Repos\Programacion3\Calculo-Nomina\obj\Debug\Calculo-Nomina-Luis-Contreras-2019-04211.csproj.GenerateResource.cache
+C:\Users\jochi\Source\Repos\Programacion3\Calculo-Nomina\obj\Debug\Calculo-Nomina-Luis-Contreras-2019-04211.csproj.CoreCompileInputs.cache
+C:\Users\jochi\Source\Repos\Programacion3\Calculo-Nomina\obj\Debug\Calculo-Nomina-Luis-Contreras-2019-04211.exe
+C:\Users\jochi\Source\Repos\Programacion3\Calculo-Nomina\obj\Debug\Calculo-Nomina-Luis-Contreras-2019-04211.pdb
+C:\Users\jochi\Source\Repos\Programacion3\Calculo-Nomina\bin\Debug\MetroFramework.Design.dll
+C:\Users\jochi\Source\Repos\Programacion3\Calculo-Nomina\bin\Debug\MetroFramework.dll
+C:\Users\jochi\Source\Repos\Programacion3\Calculo-Nomina\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\jochi\Source\Repos\Programacion3\Calculo-Nomina\obj\Debug\Calculo-Nomina-Luis-Contreras-2019-04211.csproj.CopyComplete

@@ -134,7 +134,6 @@ namespace Calculo_Nomina_Luis_Contreras_2019_04211
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
-
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -163,9 +162,12 @@ namespace Calculo_Nomina_Luis_Contreras_2019_04211
 
         private void txtNombre_TextChanged(object sender, EventArgs e)
         {
+
             // Este es un control para que ponga en mayusculas automaticamente el campo del nombre
             txtNombre.CharacterCasing = CharacterCasing.Upper;
         }
+
+
 
         private void button4_Click(object sender, EventArgs e)
         {
@@ -251,6 +253,24 @@ namespace Calculo_Nomina_Luis_Contreras_2019_04211
                     this.GetNextControl(ActiveControl, true).Focus();
                 }
             }
+        }
+
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsLetter(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (Char.IsSeparator(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+                MessageBox.Show("Solo Letras para nombres!", "Advetencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+
         }
     }
 }

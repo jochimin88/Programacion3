@@ -163,6 +163,7 @@
             this.txtNombre.TabIndex = 8;
             this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             this.txtNombre.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNombre_KeyDown);
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // txthoras
             // 
@@ -560,7 +561,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1161, 655);
+            this.ClientSize = new System.Drawing.Size(1140, 658);
             this.Controls.Add(this.ayuda);
             this.Controls.Add(this.limpiarCampos);
             this.Controls.Add(this.salir);
