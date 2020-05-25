@@ -348,6 +348,7 @@
             this.resSalarioNeto.Location = new System.Drawing.Point(596, 334);
             this.resSalarioNeto.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.resSalarioNeto.Name = "resSalarioNeto";
+            this.resSalarioNeto.ReadOnly = true;
             this.resSalarioNeto.Size = new System.Drawing.Size(100, 20);
             this.resSalarioNeto.TabIndex = 23;
             // 
@@ -357,6 +358,7 @@
             this.resDescuentos.Location = new System.Drawing.Point(596, 307);
             this.resDescuentos.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.resDescuentos.Name = "resDescuentos";
+            this.resDescuentos.ReadOnly = true;
             this.resDescuentos.Size = new System.Drawing.Size(100, 20);
             this.resDescuentos.TabIndex = 22;
             // 
@@ -366,6 +368,7 @@
             this.resISR.Location = new System.Drawing.Point(596, 280);
             this.resISR.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.resISR.Name = "resISR";
+            this.resISR.ReadOnly = true;
             this.resISR.Size = new System.Drawing.Size(100, 20);
             this.resISR.TabIndex = 21;
             // 
@@ -375,6 +378,7 @@
             this.resARS.Location = new System.Drawing.Point(596, 253);
             this.resARS.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.resARS.Name = "resARS";
+            this.resARS.ReadOnly = true;
             this.resARS.Size = new System.Drawing.Size(100, 20);
             this.resARS.TabIndex = 20;
             // 
@@ -384,6 +388,7 @@
             this.resAFP.Location = new System.Drawing.Point(596, 226);
             this.resAFP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.resAFP.Name = "resAFP";
+            this.resAFP.ReadOnly = true;
             this.resAFP.Size = new System.Drawing.Size(100, 20);
             this.resAFP.TabIndex = 19;
             // 
@@ -393,6 +398,7 @@
             this.resSalario.Location = new System.Drawing.Point(596, 200);
             this.resSalario.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.resSalario.Name = "resSalario";
+            this.resSalario.ReadOnly = true;
             this.resSalario.Size = new System.Drawing.Size(100, 20);
             this.resSalario.TabIndex = 18;
             // 
@@ -467,6 +473,7 @@
             this.rprecioextras.Enabled = false;
             this.rprecioextras.Location = new System.Drawing.Point(571, 116);
             this.rprecioextras.Name = "rprecioextras";
+            this.rprecioextras.ReadOnly = true;
             this.rprecioextras.Size = new System.Drawing.Size(141, 20);
             this.rprecioextras.TabIndex = 11;
             // 
@@ -476,6 +483,7 @@
             this.rextras.Location = new System.Drawing.Point(414, 116);
             this.rextras.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.rextras.Name = "rextras";
+            this.rextras.ReadOnly = true;
             this.rextras.Size = new System.Drawing.Size(126, 20);
             this.rextras.TabIndex = 10;
             // 
@@ -485,6 +493,7 @@
             this.rpreciohoras.Location = new System.Drawing.Point(209, 116);
             this.rpreciohoras.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.rpreciohoras.Name = "rpreciohoras";
+            this.rpreciohoras.ReadOnly = true;
             this.rpreciohoras.Size = new System.Drawing.Size(168, 20);
             this.rpreciohoras.TabIndex = 9;
             // 
@@ -494,6 +503,7 @@
             this.rhoras.Location = new System.Drawing.Point(20, 113);
             this.rhoras.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.rhoras.Name = "rhoras";
+            this.rhoras.ReadOnly = true;
             this.rhoras.Size = new System.Drawing.Size(153, 20);
             this.rhoras.TabIndex = 8;
             // 
@@ -503,6 +513,7 @@
             this.rnombre.Location = new System.Drawing.Point(154, 42);
             this.rnombre.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.rnombre.Name = "rnombre";
+            this.rnombre.ReadOnly = true;
             this.rnombre.Size = new System.Drawing.Size(387, 20);
             this.rnombre.TabIndex = 7;
             // 
@@ -512,6 +523,7 @@
             this.rcodigo.Location = new System.Drawing.Point(154, 15);
             this.rcodigo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.rcodigo.Name = "rcodigo";
+            this.rcodigo.ReadOnly = true;
             this.rcodigo.Size = new System.Drawing.Size(100, 20);
             this.rcodigo.TabIndex = 6;
             // 
@@ -583,6 +595,8 @@
             // 
             // calcular
             // 
+            this.calcular.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.calcular.Cursor = System.Windows.Forms.Cursors.Hand;
             this.calcular.ImageKey = "(none)";
             this.calcular.Location = new System.Drawing.Point(496, 593);
             this.calcular.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -590,40 +604,46 @@
             this.calcular.Size = new System.Drawing.Size(140, 50);
             this.calcular.TabIndex = 15;
             this.calcular.Text = "CALCULAR";
-            this.calcular.UseVisualStyleBackColor = true;
+            this.calcular.UseVisualStyleBackColor = false;
             this.calcular.Click += new System.EventHandler(this.button1_Click);
             // 
             // salir
             // 
+            this.salir.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.salir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.salir.Location = new System.Drawing.Point(786, 593);
             this.salir.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.salir.Name = "salir";
             this.salir.Size = new System.Drawing.Size(140, 50);
             this.salir.TabIndex = 16;
             this.salir.Text = "SALIR";
-            this.salir.UseVisualStyleBackColor = true;
+            this.salir.UseVisualStyleBackColor = false;
             this.salir.Click += new System.EventHandler(this.button2_Click);
             // 
             // limpiarCampos
             // 
+            this.limpiarCampos.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.limpiarCampos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.limpiarCampos.Location = new System.Drawing.Point(642, 593);
             this.limpiarCampos.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.limpiarCampos.Name = "limpiarCampos";
             this.limpiarCampos.Size = new System.Drawing.Size(138, 50);
             this.limpiarCampos.TabIndex = 17;
             this.limpiarCampos.Text = "LIMPIAR CAMPOS";
-            this.limpiarCampos.UseVisualStyleBackColor = true;
+            this.limpiarCampos.UseVisualStyleBackColor = false;
             this.limpiarCampos.Click += new System.EventHandler(this.button3_Click);
             // 
             // ayuda
             // 
+            this.ayuda.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ayuda.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ayuda.Location = new System.Drawing.Point(932, 593);
             this.ayuda.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ayuda.Name = "ayuda";
             this.ayuda.Size = new System.Drawing.Size(138, 49);
             this.ayuda.TabIndex = 18;
             this.ayuda.Text = "PARTICIPANTES";
-            this.ayuda.UseVisualStyleBackColor = true;
+            this.ayuda.UseVisualStyleBackColor = false;
             this.ayuda.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form1
