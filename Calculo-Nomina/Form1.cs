@@ -27,7 +27,7 @@ namespace Calculo_Nomina_Luis_Contreras_2019_04211
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+
             //Roderi Peña - Matricula 2019-03599
             // Esto es para que los valores se carguen automaticamente 
             float vafp = 0.0287f;
@@ -124,8 +124,8 @@ namespace Calculo_Nomina_Luis_Contreras_2019_04211
 
 
             // Sumamos todos los descuentos 
-            
-            / /KOKO
+
+
             float total_descuentos = desc_afp + desc_ars + desc_isr;
             resDescuentos.Text = total_descuentos.ToString();
             float sueldo_neto = (float.Parse(resSalario.Text) - total_descuentos);
@@ -173,17 +173,18 @@ namespace Calculo_Nomina_Luis_Contreras_2019_04211
 
         private void button4_Click(object sender, EventArgs e)
         {
-            string mensaje = "Esta tarea fue realizada por Luis Contreras - Matricula 2019-04211";
-            string titulo = "Ayuda";
+
+            //Participantes del Proyecto
+            string mensaje = "Jochimin Contreras.   -Mat: 2019-05041" + "\n" +
+                "Bryan M. Rodriguez.    - Mat. 2019-03300" + "\n" +
+                "Victor Rodriguez.      -Mat. 2018-07327" + "\n" +
+                "Roderi Pena.           -Mat. 2019-03599";
+            string titulo = "Participantes del Proyecto";
             MessageBox.Show(mensaje, titulo);
+            MessageBox.Show("    GRACIAS    ");
+
         }
 
-        private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            string mensaje = "Este tarea fue realizada por Luis Contreras - Matricula 2019-04211";
-            string titulo = "Ayuda";
-            MessageBox.Show(mensaje, titulo);
-        }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -192,11 +193,11 @@ namespace Calculo_Nomina_Luis_Contreras_2019_04211
 
         private void txtCodigo_KeyDown(object sender, KeyEventArgs e)
         {
+
             // A cada textbox le pasamos un control para utilizar el enter como tab, es decir, si presionamos enter pasará al proximo campo
 
             if (e.KeyCode == Keys.Enter)
             {
-
                 if (this.GetNextControl(ActiveControl, true) != null)
                 {
                     e.Handled = true;
@@ -264,6 +265,11 @@ namespace Calculo_Nomina_Luis_Contreras_2019_04211
                 e.Handled = false;
             }
             else if (Char.IsSeparator(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            // Permite borrar utilizando la techa Backspace
+            else if (e.KeyChar == (char)8)
             {
                 e.Handled = false;
             }

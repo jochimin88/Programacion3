@@ -583,6 +583,7 @@
             // 
             // calcular
             // 
+            this.calcular.ImageKey = "(none)";
             this.calcular.Location = new System.Drawing.Point(496, 593);
             this.calcular.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.calcular.Name = "calcular";
@@ -621,7 +622,7 @@
             this.ayuda.Name = "ayuda";
             this.ayuda.Size = new System.Drawing.Size(138, 49);
             this.ayuda.TabIndex = 18;
-            this.ayuda.Text = "AYUDA";
+            this.ayuda.Text = "PARTICIPANTES";
             this.ayuda.UseVisualStyleBackColor = true;
             this.ayuda.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -629,6 +630,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1166, 658);
             this.Controls.Add(this.ayuda);
             this.Controls.Add(this.limpiarCampos);
@@ -649,7 +651,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NOMINA";
