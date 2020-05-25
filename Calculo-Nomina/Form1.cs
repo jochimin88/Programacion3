@@ -27,7 +27,7 @@ namespace Calculo_Nomina_Luis_Contreras_2019_04211
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //Luis Contreras - Matricula 2019-04211
+            
             //Roderi Peña - Matricula 2019-03599
             // Esto es para que los valores se carguen automaticamente 
             float vafp = 0.0287f;
