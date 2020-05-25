@@ -27,7 +27,8 @@ namespace Calculo_Nomina_Luis_Contreras_2019_04211
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //Luis Contreras - Matricula 2019-04211
+            
+            //Roderi Peña - Matricula 2019-03599
             // Esto es para que los valores se carguen automaticamente 
             float vafp = 0.0287f;
             afp.Text = vafp.ToString();
@@ -123,7 +124,8 @@ namespace Calculo_Nomina_Luis_Contreras_2019_04211
 
 
             // Sumamos todos los descuentos 
-
+            
+            / /KOKO
             float total_descuentos = desc_afp + desc_ars + desc_isr;
             resDescuentos.Text = total_descuentos.ToString();
             float sueldo_neto = (float.Parse(resSalario.Text) - total_descuentos);
