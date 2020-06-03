@@ -79,7 +79,6 @@
             this.salir = new System.Windows.Forms.Button();
             this.limpiarCampos = new System.Windows.Forms.Button();
             this.ayuda = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -599,10 +598,10 @@
             this.calcular.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.calcular.Cursor = System.Windows.Forms.Cursors.Hand;
             this.calcular.ImageKey = "(none)";
-            this.calcular.Location = new System.Drawing.Point(401, 596);
+            this.calcular.Location = new System.Drawing.Point(577, 596);
             this.calcular.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.calcular.Name = "calcular";
-            this.calcular.Size = new System.Drawing.Size(140, 50);
+            this.calcular.Size = new System.Drawing.Size(140, 51);
             this.calcular.TabIndex = 15;
             this.calcular.Text = "CALCULAR";
             this.calcular.UseVisualStyleBackColor = false;
@@ -612,10 +611,10 @@
             // 
             this.salir.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.salir.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.salir.Location = new System.Drawing.Point(691, 596);
+            this.salir.Location = new System.Drawing.Point(867, 596);
             this.salir.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.salir.Name = "salir";
-            this.salir.Size = new System.Drawing.Size(140, 50);
+            this.salir.Size = new System.Drawing.Size(140, 51);
             this.salir.TabIndex = 16;
             this.salir.Text = "SALIR";
             this.salir.UseVisualStyleBackColor = false;
@@ -625,10 +624,10 @@
             // 
             this.limpiarCampos.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.limpiarCampos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.limpiarCampos.Location = new System.Drawing.Point(547, 596);
+            this.limpiarCampos.Location = new System.Drawing.Point(723, 596);
             this.limpiarCampos.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.limpiarCampos.Name = "limpiarCampos";
-            this.limpiarCampos.Size = new System.Drawing.Size(138, 50);
+            this.limpiarCampos.Size = new System.Drawing.Size(138, 51);
             this.limpiarCampos.TabIndex = 17;
             this.limpiarCampos.Text = "LIMPIAR CAMPOS";
             this.limpiarCampos.UseVisualStyleBackColor = false;
@@ -638,26 +637,14 @@
             // 
             this.ayuda.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ayuda.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ayuda.Location = new System.Drawing.Point(837, 596);
+            this.ayuda.Location = new System.Drawing.Point(1013, 596);
             this.ayuda.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ayuda.Name = "ayuda";
-            this.ayuda.Size = new System.Drawing.Size(138, 49);
+            this.ayuda.Size = new System.Drawing.Size(138, 50);
             this.ayuda.TabIndex = 18;
             this.ayuda.Text = "PARTICIPANTES";
             this.ayuda.UseVisualStyleBackColor = false;
             this.ayuda.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Location = new System.Drawing.Point(983, 596);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 50);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "REPORTE";
-            this.button1.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -665,7 +652,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1166, 658);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.ayuda);
             this.Controls.Add(this.limpiarCampos);
             this.Controls.Add(this.salir);
@@ -755,7 +741,6 @@
         private System.Windows.Forms.TextBox resAFP;
         private System.Windows.Forms.TextBox resSalario;
         private System.Windows.Forms.Button ayuda;
-        private System.Windows.Forms.Button button1;
     }
 }
 
