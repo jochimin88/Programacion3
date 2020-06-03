@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Calculo_Nomina_Luis_Contreras_2019_04211
+namespace Calculo_Nomina
 {
 
     public partial class Form1 : Form

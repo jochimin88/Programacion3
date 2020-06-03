@@ -1,7 +1,8 @@
-﻿using System;
+﻿using Calculo_Nomina;
+using System;
 using System.Windows.Forms;
 
-namespace Calculo_Nomina_Luis_Contreras_2019_04211
+namespace Calculo_Nomina
 {
     internal static class Program
     {
