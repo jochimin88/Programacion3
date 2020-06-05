@@ -167,6 +167,7 @@
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(100, 20);
             this.txtCodigo.TabIndex = 7;
+            this.txtCodigo.TextChanged += new System.EventHandler(this.txtCodigo_TextChanged);
             this.txtCodigo.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtCodigo_KeyDown);
             // 
             // txtNombre
@@ -187,7 +188,9 @@
             this.txthoras.Name = "txthoras";
             this.txthoras.Size = new System.Drawing.Size(100, 20);
             this.txthoras.TabIndex = 9;
+            this.txthoras.TextChanged += new System.EventHandler(this.txthoras_TextChanged);
             this.txthoras.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txthoras_KeyDown);
+            this.txthoras.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txthoras_KeyPress);
             // 
             // txtpreciohoras
             // 
@@ -196,7 +199,9 @@
             this.txtpreciohoras.Name = "txtpreciohoras";
             this.txtpreciohoras.Size = new System.Drawing.Size(100, 20);
             this.txtpreciohoras.TabIndex = 10;
+            this.txtpreciohoras.TextChanged += new System.EventHandler(this.txtpreciohoras_TextChanged);
             this.txtpreciohoras.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtpreciohoras_KeyDown);
+            this.txtpreciohoras.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtpreciohoras_KeyPress);
             // 
             // txtextras
             // 
@@ -205,7 +210,9 @@
             this.txtextras.Name = "txtextras";
             this.txtextras.Size = new System.Drawing.Size(100, 20);
             this.txtextras.TabIndex = 11;
+            this.txtextras.TextChanged += new System.EventHandler(this.txtextras_TextChanged);
             this.txtextras.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtextras_KeyDown);
+            this.txtextras.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtextras_KeyPress);
             // 
             // txtprecioextras
             // 
@@ -214,6 +221,8 @@
             this.txtprecioextras.Name = "txtprecioextras";
             this.txtprecioextras.Size = new System.Drawing.Size(100, 20);
             this.txtprecioextras.TabIndex = 12;
+            this.txtprecioextras.TextChanged += new System.EventHandler(this.txtprecioextras_TextChanged);
+            this.txtprecioextras.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtprecioextras_KeyPress);
             // 
             // panel1
             // 
@@ -526,6 +535,7 @@
             this.rcodigo.ReadOnly = true;
             this.rcodigo.Size = new System.Drawing.Size(100, 20);
             this.rcodigo.TabIndex = 6;
+            this.rcodigo.TextChanged += new System.EventHandler(this.rcodigo_TextChanged);
             // 
             // label17
             // 

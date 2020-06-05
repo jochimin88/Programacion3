@@ -276,9 +276,107 @@ namespace Calculo_Nomina
             else
             {
                 e.Handled = true;
-                MessageBox.Show("Solo Letras para nombres!", "Advetencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Solo Letras para nombres!", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
 
+        }
+
+        private void txtCodigo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rcodigo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txthoras_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtpreciohoras_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtextras_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtprecioextras_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txthoras_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(Char.IsNumber(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true; 
+                MessageBox.Show("Solo se permiten números", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);   
+            }
+        }
+
+        private void txtpreciohoras_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsNumber(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+                MessageBox.Show("Solo se permiten números", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+        }
+
+        private void txtextras_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsNumber(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+                MessageBox.Show("Solo se permiten números", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+        }
+
+        private void txtprecioextras_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsNumber(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+                MessageBox.Show("Solo se permiten números", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
         }
     }
 }
