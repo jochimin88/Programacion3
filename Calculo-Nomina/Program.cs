@@ -16,7 +16,7 @@ namespace Calculo_Nomina_Luis_Contreras_2019_04211
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new login());
         }
     }
 }

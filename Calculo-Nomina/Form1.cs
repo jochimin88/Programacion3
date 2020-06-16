@@ -124,7 +124,7 @@ namespace Calculo_Nomina_Luis_Contreras_2019_04211
 
             // Sumamos todos los descuentos 
             
-            / /KOKO
+            //KOKO
             float total_descuentos = desc_afp + desc_ars + desc_isr;
             resDescuentos.Text = total_descuentos.ToString();
             float sueldo_neto = (float.Parse(resSalario.Text) - total_descuentos);
